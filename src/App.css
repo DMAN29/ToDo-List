@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root{
+  height: 100vh;
+  width: 100vw;
+  background-color: darkslategrey;
+}
+.container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  min-height: 500px;
+  width: 600px;
+  background-color: rgba(217, 194, 160, 0.772);
+  text-align: center;
+  border-radius: 2rem;
+  box-shadow: 0 0 5px 5px rgb(48, 45, 45);
+}
+
+h1{
+  padding: 0.5rem;
+}
+input{
+  width: 80%;
+  font-size: 1.5rem;
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  outline: none;
+  border: 2px solid grey;
+  margin-right: 0.5rem;
+}
+.btn{
+  border-radius: 1.5rem;
+  padding: 0 0.5rem;
+  margin: 0 0.5rem;
+  font-size: 2rem;
+  background-color: lightgreen;
+}
+.btn:hover{
+  background-color: limegreen;
+}
+.btn-green{
+  border: 2px solid darkgreen;
+  background-color: olivedrab;
+  font-weight: 800;
+}
+.btn-green:hover{
+  background-color: yellowgreen;
+}
+.btn-red{
+  border: 2px solid rgb(240, 49, 49);
+  background-color: darkred;
+  font-weight: 800;
+}
+.btn-red:hover{
+  background-color: red;
+}
+ol{
+  list-style: none;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+.listItems{
+  display: flex;
+  justify-content: space-around;
+}
+ol{
+  margin-bottom: 8rem;
+}
+.clear{
+  position: absolute;
+  bottom: 2rem;
+  translate: -50%;
+  padding: 0.5rem;
+}
