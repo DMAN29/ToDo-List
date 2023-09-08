@@ -15,7 +15,7 @@
   left: 50%;
   translate: -50% -50%;
   min-height: 500px;
-  min-width: 80%;
+  width: 80%;
   background-color: rgba(217, 194, 160, 0.772);
   text-align: center;
   border-radius: 2rem;
@@ -39,7 +39,7 @@ input{
   border-radius: 1.5rem;
   padding: 0 0.5rem;
   margin: 0 0.5rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
   background-color: lightgreen;
 }
 .btn:hover{
@@ -61,18 +61,21 @@ input{
 .btn-red:hover{
   background-color: red;
 }
+.btns{
+  min-width: 180px;
+  margin: auto 0;
+}
 ol{
   list-style: none;
   margin-top: 1rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
+  margin-bottom: 8rem;
 }
 .listItems{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
-ol{
-  margin-bottom: 8rem;
-}
+  
 .clear{
   position: absolute;
   bottom: 2rem;
@@ -91,5 +94,8 @@ ol{
   }
   .btn{
   font-size: 2rem;
+  }
+  ol{
+    font-size: 1.5rem;
   }
 }
